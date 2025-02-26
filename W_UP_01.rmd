@@ -44,6 +44,7 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
+
 It appears to me that no line players did as many pushups as the the skill players.
 
 ### Numerical Descriptive Results
@@ -63,8 +64,12 @@ This chart is proof that Q3 of line did less pushups than Q1 of skills.
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
+
 The probability of getting a result like this is .000009421, this isn't an accident the skill players do more pushups than the line players.
+
 # Discussion and Conclusion
+
+In conclusion I copied the command from the help file to run the boxplot to change the action to match our data. Following it I ran it by graphs and charts and examined the results to find it wasn't accidentally and that the skills players indeed did more than the line players.
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
