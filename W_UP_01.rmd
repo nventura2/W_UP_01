@@ -44,7 +44,7 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
-It appears to me that no line players di as many pushups as the the skill players.
+It appears to me that no line players did as many pushups as the the skill players.
 
 ### Numerical Descriptive Results
 
@@ -53,6 +53,8 @@ It appears to me that no line players di as many pushups as the the skill player
 ```{r}
 favstats(pushups~position,data=mydata)
 ```
+
+This chart is proof that Q3 of line did less pushups than Q1 of skills.
 
 ## Inferential Results
 
